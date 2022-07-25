@@ -1,0 +1,71 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+}
+
+.adminBar {
+    background-color: rgb(250, 110, 110);
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    height: 3rem;
+}
+
+.adminBar span {
+    padding: 1rem;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+nav {
+    background-color: rgb(171, 255, 227);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 4rem;
+    margin: 1rem 0;
+}
+
+nav div {
+    padding: 1rem;
+    font-weight: bold;
+}
+
+nav .logo {
+    font-size: 2rem;
+    font-weight: normal;
+}
+
+section {
+    background-color: rgb(171, 255, 227);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-resolution: ;
+}
+
+section span {
+    margin: 4rem 0;
+    font-weight: bold;
+}
+
+section p {
+    text-align: center;
+    margin: 0 5rem;
+}
+
+section button {
+    margin: 2rem 0;
+    background-color: aliceblue;
+    padding: 1rem 3rem;
+    font-weight: bold;
+}
