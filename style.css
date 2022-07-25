@@ -163,3 +163,54 @@ nav .logo {
 .social p{
     padding: 0 0 3rem 0;
 }
+
+.oval{
+    background-color: pink;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+   
+    
+}
+.oval h2{
+    margin: 3rem 2rem;
+}
+.container2{
+    display: flex;
+    justify-content: flex-start;
+    width: 100%;
+}
+.logos {
+    background-color: bisque;
+    height: 80px;
+    width: 150px;
+    margin: 2rem
+}
+.extra {
+    background-color: rgb(171, 255, 227);
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.extra h2 {
+    margin: 2rem;
+}
+.extra p {
+    margin: 1rem;
+}
+.star {
+   background-color: blanchedalmond;
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+   text-align: center;
+}
+.star p {
+    margin: 2rem;
+}
+
+
+
+
+
+
